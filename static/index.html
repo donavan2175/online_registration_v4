@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+    <link rel="stylesheet" href="../style/styles.css" />
+</head>
+
+<body>
+    <header>
+      <div class="heading">
+        <h1>THE CODE REVIEW</h1>
+      </div>
+
+      <h2 class="coheading">Signup for our newsletter</h2>
+      <p class="mainheading">Get the lattest news on how your code is doing right in your inbox</p>
+    </header>
+    <hr class="top">
+
+    <form action="method">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <div class="form1">
+          <label for="fullname">Full Name</label><br>
+          <input type="text" name="fullname" id="fullname" placeholder="Required"/><br>
+        </div>
+
+        <div class="form1">
+          <label for="email">Email Address</label><br>
+          <input type="text" name="email" id="email" placeholder="Required" /><br>
+        </div>
+
+        <div class="form1">
+          <label for="number">Phone Number</label><br>
+          <input type="text" name="number" id="number"/><br>
+        </div>
+
+        <div class="form1">
+          <label for="address">Street Address</label><br>
+          <input type="text" name="address" id="address"/><br>
+        </div>
+        
+        <div class="form1">
+          <label for="city">City</label><br>
+          <input type="text" name="city" id="city"/><br>
+        </div>
+
+        <div class="form1">
+          <label for="state">State</label><br>
+            <select name="state" id="state">
+            <option value="CA">California</option>
+            <option value="ala">Alaska</option>
+            <option value="ari">Arizona</option>
+            <option value="del">Delaware</option>
+          </select><br>
+        </div>
+
+        <div class="form1">
+          <label for="zip">Zip Code</label><br>
+          <input type="text" name="zip" id="zip"/><br>
+        </div>
+        <hr>
+        
+      </fieldset>
+
+      <fieldset>
+        <legend>Newsletter</legend>
+        <p>Select the newsletter you would like to recieve</p>
+        <input type="checkbox" name="html" id="html" value="htmlnews"/>
+        <label for="html">HTML News</label><br>
+
+        <input type="checkbox" name="css" id="css" value="cssnews"/>
+        <label for="css">CSS News</label><br>
+
+        <input type="checkbox" name="javascript" id="javascript" value="javascriptnews"/>
+        <label for="javascript">Javascript News</label>
+
+        <p>Newsletter format</p>
+        <input type="radio" name="format" id="format" value="format"/>
+        <label for="format">HTML</label><br>
+
+        <input type="radio" name="text" id="text" value="textformat"/>
+        <label for="text">Plain text</label><br>
+        
+        <label for="topics">Other topics you'd like to hear about</label><br>
+        <textarea name="topics" id="topics"></textarea><br>
+      </fieldset>
+
+        <input class="button" type="submit" value="Sign Up"/>
+    </form>
+
+    <Footer>
+      <p>&copy; <em>The Code Review</em><p>
+    </Footer>
+    
+    
+</body>
+</html>
