@@ -24,7 +24,6 @@ legend {
 
 p {
     font-family: "krub";
-    letter-spacing: 1px;
 }
 
 hr.top {
@@ -37,7 +36,7 @@ label {
 }
 
 input, select {
-    font-size: 30px;
+    font-size: 25px;
     padding: 5px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -52,7 +51,7 @@ select {
 }
 
 textarea {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 10px;
 }
 
@@ -63,13 +62,13 @@ textarea {
     color: white;
     padding: 10px 100px;
     margin-top: 10px;
-    margin-left: 30px
+    margin-left: 15px
 }
 
 input::placeholder {
     font-size: 20px;
     position: relative;
-    right: -200px;
+    right: -170px;
 }
 
 .head {
