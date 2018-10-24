@@ -140,6 +140,6 @@ input:focus {
     input::placeholder {
         font-size: 20px;
         position: relative;
-        right: -950px;
+        right: -700px;
     }
 }
