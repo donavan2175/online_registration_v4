@@ -44,10 +44,11 @@ input, select {
 }
 
 select {
-    font-size: 100%;
-    padding: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    width: 79%;
+}
+
+.zip {
+    width: 50%;
 }
 
 textarea {
@@ -100,6 +101,9 @@ input:focus {
         margin: auto;
         
     }
+    .form1 .zip {
+        width: 25%;
+    }
 
     hr.top {
         border: 1px solid rgb(23, 23, 53);
@@ -138,7 +142,7 @@ input:focus {
     .form1 input {
         width: 70%
     }
-
+    
     textarea {
         width: 100%
     }
@@ -155,6 +159,14 @@ input:focus {
         font-size: 20px;
         position: relative;
         right: -450px;
+    }
+
+    .form1 .zip {
+        width: 25%;
+    }
+    
+    select {
+        width: 72%;
     }
 
 }
