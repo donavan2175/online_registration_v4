@@ -139,7 +139,7 @@ input:focus {
         width: 98%;
     }
 
-    .form1 input {
+    .form1 input, select {
         width: 70%
     }
     
