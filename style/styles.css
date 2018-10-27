@@ -97,7 +97,7 @@ input:focus {
     }
 
     form {
-        width: 80%;
+        max-width: 80%;
         margin: auto;
         
     }
@@ -167,6 +167,10 @@ input:focus {
     
     select {
         width: 72%;
+    }
+
+    form {
+        max-width: 80%;
     }
 
 }
