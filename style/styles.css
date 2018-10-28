@@ -44,7 +44,7 @@ input, select {
 }
 
 select {
-    width: 79%;
+    font-size: 15px;
 }
 
 .zip {
@@ -139,7 +139,7 @@ input:focus {
         width: 98%;
     }
 
-    .form1 input, select {
+    .form1 input {
         width: 70%
     }
     
@@ -158,15 +158,11 @@ input:focus {
     input::placeholder {
         font-size: 20px;
         position: relative;
-        right: -450px;
+        right: -600px;
     }
 
     .form1 .zip {
         width: 25%;
-    }
-    
-    select {
-        width: 72%;
     }
 
     form {
